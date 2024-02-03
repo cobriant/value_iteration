@@ -9,8 +9,7 @@
 #' @docType package
 #' @usage NULL
 #' @useDynLib valueiteration, .registration = TRUE
-NULL
-
+#' @export
 value_iteration <- function(n, reward_guess, transition_flat, rows, cols, depth, beta, out) .Call(wrap__value_iteration, n, reward_guess, transition_flat, rows, cols, depth, beta, out)
 
 
