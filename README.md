@@ -1,6 +1,7 @@
 Install this package to do super fast value iteration with a transition probability array and a reward function.
 
 devtools::install_github("cobriant/value_iteration@master")
+
 valueiteration::value_iteration(
   n = 2, # length of the reward function
   reward_guess = c(1, 0), # reward function
